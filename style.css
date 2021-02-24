@@ -2,18 +2,22 @@ body {
 	background-color: red;
 }
 
+nav {
+	display: inline-block;
+	border: 3px solid blue;
+}
+
+.menu {
+	border: 3px solid black;
+}
+
 h1, h2, h3 {
 	font-family: 'Courier New', monospace;
 	font: 40px/50px;
 }
 	
-p, li {
+p, li, a {
 	font-family: 'Trebuchet MS', sans-serif;
-}
-
-a {
-	font-family: 'Trebuchet MS', sans-serif;
-	border: 3px solid blue;
 }
 	
 
