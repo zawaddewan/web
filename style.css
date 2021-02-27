@@ -1,21 +1,24 @@
 body {
-	background-color: red;
+	background-color: #fc4848;
 }
 
 nav {
-	padding: 0;
-	margin: 0;
 	display: flex;
+	overflow: auto;
 }
 
 .menu a {
-	
 	float: left;
 	border: 3px solid black;
 	text-align: center;
 	color: black;
 	padding: 10px 16px;
 	text-decoration: none;
+}
+
+.menu a.active {
+	background-color: black;
+	color: white;
 }
 
 .menu a:hover {
@@ -28,7 +31,7 @@ h1, h2, h3 {
 	font: 40px/50px;
 }
 	
-p, a {
+p, a, li {
 	font-family: 'Trebuchet MS', sans-serif;
 }
 	
@@ -39,3 +42,38 @@ a {
 img {
 	border: 5px double black;
 }
+
+.cimg {
+	display: flex;
+	justify-content: center;
+}
+
+.vertnav a {
+	display: block;
+	border: 3px solid black;
+	text-align: center;
+	width: 80px;
+	color: black;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+.vertnav a:hover {
+	background-color: black;
+	color: white;
+}
+
+.vertnav a.active {
+	background-color: black;
+	color: white;
+}
+
+.vertnav {
+	overflow: auto;
+	height: 100%;
+	position: absolute;
+}
+
+
+
+
